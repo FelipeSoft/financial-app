@@ -71,10 +71,10 @@ const Index = () => {
                     </section>
                 </div>
             </div>
-            <div className="bg-neutral-200 w-full min-h-screen">
+            <div className="bg-neutral-200 dark:bg-zinc-700 w-full min-h-screen">
                 <div className="max-w-7xl mx-auto">
                     <section className="grid grid-cols-3 gap-4">
-                        <article className="flex flex-col justify-between rounded-md bg-neutral-100 p-5 shadow-xl -mt-12">
+                        <article className="flex flex-col justify-between rounded-md bg-neutral-100 dark:bg-neutral-800 p-5 shadow-xl -mt-12">
                             <div className="flex items-center w-full justify-between">
                                 <div className="bg-blue-300 rounded-md h-8 w-8 flex items-center justify-center text-black"><DollarSign /></div>
                                 <p className="font-semibold text-neutral-500 flex items-center">
@@ -83,11 +83,11 @@ const Index = () => {
                                 </p>
                             </div>
                             <div className="flex flex-col">
-                                <h2 className="text-5xl font-semibold text-black mt-8">${(1098329.71 - 576893.09).toLocaleString("en")}</h2>
+                                <h2 className="text-5xl font-semibold text-black dark:text-white mt-8">${(1098329.71 - 576893.09).toLocaleString("en")}</h2>
                                 <p className="text-neutral-500">Current Balance</p>
                             </div>
                         </article>
-                        <article className="flex flex-col justify-between rounded-md bg-neutral-100 p-5 shadow-xl -mt-12">
+                        <article className="flex flex-col justify-between rounded-md bg-neutral-100 dark:bg-neutral-800 p-5 shadow-xl -mt-12">
                             <div className="flex items-center w-full justify-between">
                                 <div className="bg-blue-300 rounded-md h-8 w-8 flex items-center justify-center text-black"><HandCoins /></div>
                                 <p className="font-semibold text-neutral-500 flex items-center">
@@ -96,11 +96,11 @@ const Index = () => {
                                 </p>
                             </div>
                             <div className="flex flex-col">
-                                <h2 className="text-3xl font-semibold text-black mt-8">$1,098,329.71</h2>
+                                <h2 className="text-3xl font-semibold text-black dark:text-white mt-8">$1,098,329.71</h2>
                                 <p className="text-neutral-500">Incomes</p>
                             </div>
                         </article>
-                        <article className="flex flex-col justify-between rounded-md bg-neutral-100 p-5 shadow-xl -mt-12">
+                        <article className="flex flex-col justify-between rounded-md bg-neutral-100 dark:bg-neutral-800 p-5 shadow-xl -mt-12">
                             <div className="flex items-center w-full justify-between">
                                 <div className="bg-blue-300 rounded-md h-8 w-8 flex items-center justify-center text-black"><CircleArrowOutUpRight /></div>
                                 <p className="font-semibold text-neutral-500 flex items-center">
@@ -109,16 +109,16 @@ const Index = () => {
                                 </p>
                             </div>
                             <div className="flex flex-col">
-                                <h2 className="text-3xl font-semibold text-black mt-8">$576,893.09</h2>
+                                <h2 className="text-3xl font-semibold text-black dark:text-white mt-8">$576,893.09</h2>
                                 <p className="text-neutral-500">Expenses</p>
                             </div>
                         </article>
                     </section>
                     <section className="mt-16 grid grid-cols-3 gap-x-4">
-                        <article className="col-span-2 flex flex-col justify-between rounded-md bg-neutral-100 p-5 shadow-xl -mt-12">
+                        <article className="col-span-2 flex flex-col justify-between rounded-md bg-neutral-100 dark:bg-neutral-800 p-5 shadow-xl -mt-12">
                             <div className="flex items-center justify-between">
                                 <div>
-                                    <h1 className="text-black flex items-center gap-2 font-semibold text-xl">
+                                    <h1 className="text-black flex items-center gap-2 dark:text-white font-semibold text-xl">
                                         Balance Overtime
                                         <LineChart className="text-neutral-500" />
                                     </h1>
@@ -134,10 +134,10 @@ const Index = () => {
                                 <AreaChartComponent />
                             </div>
                         </article>
-                        <article className="col-span-1 flex flex-col rounded-md bg-neutral-100 p-5 shadow-xl -mt-12">
+                        <article className="col-span-1 flex flex-col rounded-md bg-neutral-100 dark:bg-neutral-800 p-5 shadow-xl -mt-12">
                             <div className="flex items-center justify-between">
                                 <div>
-                                    <h1 className="text-black flex items-center gap-2 font-semibold text-xl">
+                                    <h1 className="text-black flex items-center gap-2 dark:text-white font-semibold text-xl">
                                         Expenses by Areas
                                         <PieChartIcon className="text-neutral-500" />
                                     </h1>

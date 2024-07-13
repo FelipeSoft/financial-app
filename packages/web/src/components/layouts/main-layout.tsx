@@ -1,6 +1,6 @@
 import { Navigation } from "@/components/navigation/navigation";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Bell, ChevronDown, Settings } from "lucide-react";
+import { Bell, ChevronDown, Coins, Settings } from "lucide-react";
 import {
     Tooltip,
     TooltipContent,
@@ -18,8 +18,8 @@ const MainLayout = ({ children }: Props) => {
         <div>
             <header className="h-[80px] border-b dark:bg-neutral-900 bg-neutral-100 dark:border-neutral-700 border-neutral-300 shadow-lg">
                 <nav className="max-w-7xl mx-auto h-full flex items-center">
-                    <h1 className="font-semibold text-lg w-max">P<span className="text-emerald-600">2</span>L <sub className="text-neutral-500 font-normal"></sub></h1>
-                    <div className="h-[40px] w-[1px] bg-neutral-300 dark:bg-neutral-700 mx-[40px]"></div>
+                    <Coins className="text-yellow-500" />
+                    <div className="h-[40px] w-[0.5px] bg-neutral-300 dark:bg-neutral-700 ml-[40px] mr-[20px]"></div>
                     <div className="w-full flex items-center justify-between">
                         <Navigation />
                         <nav className="flex items-center gap-6">
