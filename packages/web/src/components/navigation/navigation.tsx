@@ -16,7 +16,7 @@ export const Navigation = () => {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Overview</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="text-md">Overview</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="flex flex-col gap-2 w-[300px] md:w-[400px] lg:w-[500px] p-2">
                             {tabs.overview.map((tab) => {
@@ -36,7 +36,7 @@ export const Navigation = () => {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Bills</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="text-md">Bills</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="flex flex-col gap-2 w-[300px] md:w-[400px] lg:w-[500px] p-2">
                             {tabs.bills.map((tab) => {
@@ -56,7 +56,7 @@ export const Navigation = () => {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Wallets</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="text-md">Wallets</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="flex flex-col gap-2 w-[300px] md:w-[400px] lg:w-[500px] p-2">
                             {tabs.wallets.map((tab) => {
@@ -76,7 +76,7 @@ export const Navigation = () => {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Vault</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="text-md">Vault</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="flex flex-col gap-2 w-[300px] md:w-[400px] lg:w-[500px] p-2">
                             {tabs.vault.map((tab) => {
