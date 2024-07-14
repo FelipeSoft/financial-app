@@ -3,7 +3,7 @@ import { ArrowDownSquare, ArrowDownUp, ArrowUpSquare, Bomb, CreditCard, Feather,
 export const tabs = {
     overview: [
         { href: "/", icon: <LineChart className="text-emerald-600" />, title: "Dashboard", description: "A general visual overview of your financials movements." },
-        { href: "/", icon: <ArrowDownUp className="text-emerald-600" />, title: "Transactions", description: "The detailment of your financials movements." }
+        { href: "/transactions", icon: <ArrowDownUp className="text-emerald-600" />, title: "Transactions", description: "The detailment of your financials movements." }
     ],
     bills: [
         { href: "/", icon: <ArrowUpSquare className="text-indigo-600" />, title: "Incomes", description: "Details of your incomes." },
